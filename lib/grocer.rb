@@ -13,7 +13,7 @@ end
 #Enumerate through a cart of item hashes, adding a count and parsing down duplicates 
 def consolidate_cart(cart)
   cart = cart.reduce([]) { |item_collection, item_hash| 
-    binding.pry; 
+    #binding.pry; 
     if item_collection
       
     end 
