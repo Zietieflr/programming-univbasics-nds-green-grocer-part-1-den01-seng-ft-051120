@@ -7,7 +7,6 @@ def find_item_by_name_in_collection(name, collection)
     if item_hash[:item] == name
     end 
   }
-  nil; 
 end
 
 #Enumerate through a cart of item hashes, adding a count and parsing down duplicates 
