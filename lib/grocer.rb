@@ -16,6 +16,8 @@ def consolidate_cart(cart)
   cart.reduce { |item_collection, item_hash| 
     binding.pry; 
     if item_hash[:item]
+      
+    end 
   }
 end
 
