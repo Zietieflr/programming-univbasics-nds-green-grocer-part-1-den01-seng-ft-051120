@@ -18,7 +18,10 @@ def consolidate_cart(cart)
       }[:count] += 1; 
       item_collection; 
     else 
-      item_collection
+      i = item_collection.length
+      item_collection[i] = item_hash;
+      item_collection[i][:count] = 1; 
+      item_collection; 
     end 
   }
 end
