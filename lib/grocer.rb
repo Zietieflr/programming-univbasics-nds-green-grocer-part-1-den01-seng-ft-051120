@@ -15,7 +15,7 @@ end
 def consolidate_cart(cart)
   cart = cart.reduce([]) { |item_collection, item_hash| 
     binding.pry; 
-    if item_collection.
+    if item_collection
       
     end 
   }
