@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
       return item_hash; 
     end 
   }
-
+  nil; 
 end
 
 def consolidate_cart(cart)
