@@ -9,7 +9,7 @@ def find_item_by_name_in_collection(name, collection)
   nil; 
 end
 
-#Enumerate through a collection, adding a count and parsing down duplicates 
+#Enumerate through a cart of item hashes, adding a count and parsing down duplicates 
 def consolidate_cart(cart)
   
 end
