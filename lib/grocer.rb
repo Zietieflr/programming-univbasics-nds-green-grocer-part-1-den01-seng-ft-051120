@@ -12,8 +12,13 @@ end
 def consolidate_cart(cart)
   cart = cart.reduce([]) { |item_collection, item_hash| 
     #binding.pry; 
-    if item_collection
-      
+    if find_item_by_name_in_collection(item_hash[:item], item_collection)
+      item_collection.find { |item_hash2| 
+        item_hash2[:item] == item_hash[:item]
+      }[:count] += 1; 
+      item_collection; 
+    else 
+      item_collection
     end 
   }
 end
