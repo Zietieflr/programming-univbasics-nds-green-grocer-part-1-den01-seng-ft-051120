@@ -11,7 +11,9 @@ end
 
 #Enumerate through a cart of item hashes, adding a count and parsing down duplicates 
 def consolidate_cart(cart)
-  
+  cart.map { |item_hash| 
+    
+  }
 end
 
 
