@@ -4,8 +4,7 @@ require 'pry';
 #Find item in a collection and return if found, nil if not
 def find_item_by_name_in_collection(name, collection)
   collection.find { |item_hash| 
-    if item_hash[:item] == name
-    end 
+    item_hash[:item] == name
   }
 end
 
